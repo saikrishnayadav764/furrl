@@ -23,7 +23,6 @@ const ContactSection = () => {
           style={styles.iconWrapper}
         >
           <img
-            loading="lazy"
             width="40"
             height="40"
             src="https://web.furrl.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwhatsapp.7b6c6b21.gif&w=96&q=75"
@@ -36,7 +35,6 @@ const ContactSection = () => {
           style={styles.iconWrapper}
         >
           <img
-            loading="lazy"
             width="28"
             height="28"
             src="https://web.furrl.in/_next/static/media/gmail.51f2dfde.svg"
