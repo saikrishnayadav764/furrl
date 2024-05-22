@@ -37,7 +37,7 @@ const ContactSection = () => {
           <img
             width="28"
             height="28"
-            src="gmail.svg"
+            src="gmail.png"
             style={styles.icon}
             alt="gmail icon"
           />
