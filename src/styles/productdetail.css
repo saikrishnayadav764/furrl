@@ -1,0 +1,44 @@
+
+.product-detail {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .product-detail p {
+    margin: 10px 0;
+  }
+  
+  .product-detail-image {
+    width: 100%;
+    max-width: 500px;
+    height: 65vh;
+    display: block;
+    margin: auto;
+    border-radius: 15.3px;
+  }
+  
+  .product-brand, .product-title, .product-price {
+    text-align: left;
+  }
+  
+  .product-price {
+    font-weight: bold;
+  }
+  
+  .mrp {
+    text-decoration: line-through;
+    margin-left: 10px;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .product-detail {
+      padding: 10px;
+    }
+  
+    .product-detail-image {
+      max-width: 100%;
+    }
+  }
+  
