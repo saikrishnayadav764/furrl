@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Rebuild Mobile Website UI - HomeHunts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project involves rebuilding the HomeHunts page of Furrl's mobile website. The page is hosted and the source code is available on GitHub.
 
-## Available Scripts
+## Hosted Link
+[View the HomeHunts Page](https://furrl-five.vercel.app/)
 
-In the project directory, you can run:
+## GitHub Repository
+[View the Source Code on GitHub](https://github.com/saikrishnayadav764/furrl)
 
-### `npm start`
+## Features Implemented
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Top Navigation
+- **No back button**
+- **No search button**
+- **Wishlist button**: Redirects to [Furrl Wishlist](https://furrl.in/wishlist)
+- **Cart button**: Redirects to [Furrl Cart](https://furrl.in/cart)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Product List
+- **Infinite Scroll**: Loads initial content and fetches additional pages as the user scrolls.
+- **Product Click**: Takes the user to the corresponding product details page.
+- **Share Button**: Opens a generic share component with the link to the product details page.
 
-### `npm test`
+## Technical Details
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Technology Stack
+- **Framework**: React JS
+- **APIs**: Used Furrl's production API (details obtained via HomeHunts page network tab)
+- **Language**: JavaScript 
 
-### `npm run build`
+### Implementation Notes
+- Followed best practices for code correctness, UI look and feel, and code quality.
+- Utilized intuitive class/function names and modular function design.
+- Adhered to the restriction of not using additional libraries such as Intersection Observer.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Judgement Criteria
+- **Code Correctness**: Ensured the implementation meets the functional requirements.
+- **UI Look and Feel**: Matched the design specifications closely.
+- **Code Quality**: Maintained high standards of code quality and readability.
+- **Intuitive Class/Function Names**: Used meaningful and descriptive names.
+- **Smaller and Modular Functions**: Broke down the code into manageable, reusable functions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
