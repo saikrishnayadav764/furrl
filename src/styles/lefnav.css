@@ -21,7 +21,7 @@
         width: 0;
     }
     50% {
-        width: 24vh;
+        width: 40vw;
     }
     100% {
         width: 80vw;
@@ -151,8 +151,8 @@
 
 .close-btn {
     position: absolute;
-    top: 10px; /* Adjust as necessary */
-    right: 10px; /* Adjust as necessary */
+    top: 10px;
+    right: 10px;
     cursor: pointer;
 }
 
